@@ -96,7 +96,7 @@ data:
       * - "colibris": the new experimental skin (since Etherpad 1.8), candidate to
       *               become the default in Etherpad 2.0
       */
-      "skinName": "no-skin",
+      "skinName": "colibris",
 
       /*
       * Skin Variants
