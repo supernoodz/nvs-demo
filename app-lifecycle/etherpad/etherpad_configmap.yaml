@@ -43,7 +43,7 @@ data:
     *
     *    "port":     9001,            <-- Literal values. When not using
     *    "minify":   false                substitution, only strings must be
-    *    "skinName": "no-skin"           quoted. Booleans and numbers must not.
+    *    "skinName": "colibris"           quoted. Booleans and numbers must not.
     *
     *    "port":     "${PORT:9001}"   <-- CORRECT: if you want to use a variable
     *    "minify":   "${MINIFY:true}"     substitution, put quotes around its name,
@@ -96,7 +96,7 @@ data:
       * - "colibris": the new experimental skin (since Etherpad 1.8), candidate to
       *               become the default in Etherpad 2.0
       */
-      "skinName": "colibris",
+      "skinName": "no-skin",
 
       /*
       * Skin Variants
